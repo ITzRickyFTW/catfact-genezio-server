@@ -40,6 +40,7 @@ dependencies {
     implementation("org.http4k:http4k-client-apache:$http4kVersion")
     implementation("com.amazonaws:aws-lambda-java-core:1.2.0") 
     implementation("org.mongodb:mongodb-driver-kotlin-coroutine:4.10.1")
+    implementation("com.google.code.gson:gson:2.10.1")
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
